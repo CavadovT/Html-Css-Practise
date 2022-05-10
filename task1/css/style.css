@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/task1/images/backroundimg.webp);
+}
+
+header {
+    background-color: rgb(225, 124, 69);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.twit {
+    border-radius: 50%;
+    background-color: white;
+    color:rgb(85,26,139) !important;
+    padding:0.4% ;
+}
+
+.face {
+    border-radius: 50%;
+    background-color: white;
+    color:rgb(85,26,139) !important;
+    padding:0.4% ;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+}
+/*main
+*/
+main .section{
+  display: flex;
+  justify-content: space-between;
+}
+main .content{
+background-color: red;
+margin-left: 20%;
+}
+main .form{
+background-color: white;
+margin-right: 20%;
+margin-top: 5%;
+padding: 10%;
+}
+main form input{
+    display: block;
+}
+main form label{
+display: block;
+}
+main form button{
+    border-radius: 5%;
+    background-color: rgb(253,111,45);
+    display: block;
+}

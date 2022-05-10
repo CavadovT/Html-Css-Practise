@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(241,241,241);
+
+}
+.title{
+ 
+    text-align: center;
+   margin: 2% 15% 0 15%;
+}
+p{
+    
+}
+main section .container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 45% 45%;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box5 box6";
+    grid-gap: 10px;
+    margin: 3% 15% 0 15%;
+}
+.container >div{
+    text-align: center;
+    padding: 15%;
+    font-size: 15px;
+    background-color: rgb(255,255,255);
+}
+.container >div>*{
+    background-color: rgb(255,255,255);
+    /* color: rgb(176,176,176); */
+}
+.item i{
+    color: rgb(251,136,55);
+    font-size: 25px ;
+    padding: 1%;
+}
+.container h3{
+    font-size: 18px;
+    padding: 3%;
+    color: rgb(205,205,205);
+}
+.item p{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    margin: 0 20% 0 15%;
+    background-color: rgb(241,241,241);
+}
+footer button{
+    background-color: rgb(246,192,22);
+    font-size: 25px;
+    border: none;
+    color: white;
+    padding: 0.5%;
+}
+.box1{
+    grid-area:box1;
+   
+}
+.box2{
+    grid-area:box2;
+}
+.box3{
+    grid-area:box3;
+   
+}
+.box4{
+    grid-area:box4;
+    
+}
+.box5{
+    grid-area:box5;
+   
+}
+.box6{
+    grid-area:box6;
+    
+}
